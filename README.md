@@ -1,7 +1,7 @@
 # CS50x_2021
 Harvard's computer science course
 
-CS50 Assignments:
+### CS50 Assignments:
 | Assignment | Language |
 | :--------- | :--------- |
 | Pset 1 | Scratch |
