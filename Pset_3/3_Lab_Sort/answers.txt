@@ -1,0 +1,13 @@
+sort1 uses: Bubble sort
+
+How do you know?: The slowest on RANDOM50000, but quicker than sort3 on SORTED
+
+
+sort2 uses: Merge Sort
+
+How do you know?: Runs files the quickest
+
+
+sort3 uses: Selection Sort
+
+How do you know?: Runs RANDOM50000 same as sort1

@@ -1,0 +1,26 @@
+-- In 7.sql, write a SQL query to list all movies released in 2010 and their ratings, in descending order by rating. For movies with the same rating, order them alphabetically by title.
+
+    -- Your query should output a table with two columns, one for the title of each movie and one for the rating of each movie.
+    -- Movies that do not have ratings should not be included in the result.
+
+
+SELECT title, rating FROM movies
+JOIN ratings ON id = movie_id
+WHERE year = 2010
+ORDER BY rating DESC, title ASC;
+
+
+-- CREATE TABLE movies (
+--                     id INTEGER,
+--                     title TEXT NOT NULL,
+--                     year NUMERIC,
+--                     PRIMARY KEY(id)
+--                 );
+
+--             );
+-- CREATE TABLE ratings (
+--                 movie_id INTEGER NOT NULL,
+--                 rating REAL NOT NULL,
+--                 votes INTEGER NOT NULL,
+--                 FOREIGN KEY(movie_id) REFERENCES movies(id)
+--             );
