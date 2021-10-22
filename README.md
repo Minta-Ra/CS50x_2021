@@ -12,7 +12,7 @@ Harvard's computer science course
 | Pset 5 | C |
 | Pset 6 | Python |
 | Pset 7 | SQL |
-| Pset 8 | HTML, CSS, Python |
-| Pset 9 | Flask |
+| Pset 8 | HTML, CSS, Flask |
+| Pset 9 | Python, Flask |
 
 ###### All Problem sets (Psets) contain Labs.
